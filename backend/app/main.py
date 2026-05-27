@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from questions import questions
+from .questions import questions
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()

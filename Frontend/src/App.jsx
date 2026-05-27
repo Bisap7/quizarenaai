@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://quizarenaai-2.onrender.com";
 
 export default function App() {
   const [userId, setUserId] = useState("");
