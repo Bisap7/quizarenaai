@@ -145,7 +145,8 @@ def leaderboard():
 
         leaderboard_data.append({
             "user": player_name,
-            "score": player_data["score"]
+            "score": player_data["score"],
+            "total": len(questions)
         })
 
     return leaderboard_data

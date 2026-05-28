@@ -122,7 +122,15 @@ export default function App() {
               <h3>
                 #{i + 1} {user.user}
               </h3>
-              <p>Score: {user.score}</p>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  color: "#38bdf8",
+                  fontSize: "18px",
+                }}
+              >
+                🏅 Score: {user.score} / {user.total}
+              </p>
             </motion.div>
           ))
         )}
